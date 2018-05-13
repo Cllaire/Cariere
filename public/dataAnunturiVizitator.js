@@ -6,7 +6,6 @@ function initApp() {
 
 // Trimite catre prima pagina. 
 function ButonLogin() {
-
 	window.location.href = "Homepage.html";
 }
 

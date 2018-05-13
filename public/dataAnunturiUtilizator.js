@@ -1,14 +1,9 @@
 function initApp() {
 	// Se executa la fiecare schimbare de autentificare: log in sau sign out. 
 	firebase.auth().onAuthStateChanged(function(user) {
-          if (user != null) { // Exista un user logat.
-            user.providerData.forEach(function (profile) {
-            console.log("Name: " + profile.displayName);
-            console.log("Email: " + profile.email);
-            });
-          }
-          else 
+          if (user == null) 
             window.location.href = "Homepage.html"; // Daca userul curent este null, merge in Homepage.
+      												// Tocmai a dat signout.
       });
 
   document.getElementById('ButonSignOut').addEventListener('click', ButonSignOut, false);
