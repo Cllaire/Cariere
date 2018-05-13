@@ -16,6 +16,12 @@ function initApp() {
   document.getElementById('ButonContNou').addEventListener('click', ButonContNou, false);
   document.getElementById('ButonAnunturiVizitator').addEventListener('click', ButonAnunturiVizitator, false);
   document.getElementById('ButonContact').addEventListener('click', ButonContact, false);
+  document.getElementById('ButonProgramWorkshopuri').addEventListener('click', ButonProgramWorkshopuri, false);
+
+}
+
+function ButonProgramWorkshopuri() {
+  window.location.href = "ProgramWorkshopVizitator.html";
 }
 
 function ButonContact() {

@@ -2,6 +2,11 @@ function initApp() {
  
 	document.getElementById('ButonAnunturi').addEventListener('click', ButonAnunturi, false);
 	document.getElementById('ButonLogin').addEventListener('click', ButonLogin, false);
+	document.getElementById('ButonProgramWorkshopuri').addEventListener('click', ButonProgramWorkshopuri, false);
+}
+
+function ButonProgramWorkshopuri() {
+	window.location.href = "ProgramWorkshopVizitator.html"; 
 }
 
 function ButonAnunturi() {

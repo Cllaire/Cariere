@@ -9,7 +9,12 @@ function initApp() {
   document.getElementById('ButonSignOut').addEventListener('click', ButonSignOut, false);
   document.getElementsByName('Submit')[0].addEventListener('click', ButonSubmit, false);
   document.getElementById('ButonContact').addEventListener('click', ButonContact, false);
+  document.getElementById('ButonProgramWorkshopuri').addEventListener('click', ButonProgramWorkshopuri, false);
   colecteazaAnunturi();
+}
+
+function ButonProgramWorkshopuri() {
+	window.location.href = "ProgramWorkshopUtilizator.html";
 }
 
 function ButonContact() {
