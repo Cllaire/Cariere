@@ -12,7 +12,7 @@ header {
 	color: #558b2f;
 	text-shadow: 0 0 5px #7CB342;
 	padding-top: 10vh;
-	font-size: 9em;
+	font-size: 8vw;
 	text-align: center;
 	font-weight: bold;
 }
@@ -25,7 +25,7 @@ header {
 	background: transparent;
 	border: 0px transparent;
 	color: #558b2f;
-	font-size: 1.5em;
+	font-size: 2vw;
 	font-weight: bold;
 	font-family: eb-garamond;
 }
@@ -45,7 +45,7 @@ header {
 
 #Lista div {
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1.5vw;
 	border: 3px solid #36802d;
     border-radius: 15px;
     display: block;
@@ -53,7 +53,7 @@ header {
 
 #Lista p {
 	text-align: right;
-	font-size: 1.2em;
+	font-size: 1vw;
 	bottom: 2vh;
 	display: block;	
 	position: relative;
@@ -75,7 +75,7 @@ textarea {
 	width: 20vw;
 	height: 40vh;
 	font-family: arial;	
-	font-size: 1.5em;
+	font-size: 1.5vw;
 	color:  #4c8c4a;
 	font-weight: bold;
 }
@@ -112,29 +112,31 @@ td > input {
 	background: transparent;
 	border: 0px transparent;
 	color: white;
-	font-size: 1.2em;
+	font-size: 1vw;
 	font-weight: bold;
 	font-family: eb-garamond;
 }
 
 th {
-	font-size: 2.3em;
+	font-size: 2vw;
 	font-weight: bold;
 }
 /* Sfarsit meniu utilizator. */
 
 /* Inceput copyright. */
 footer {
+	clear: both;
+	padding: 0;
 	background-color: #558b2f;
 	opacity: 0.8;
 	z-index: 1;
 	width: 50%;
 	height: 20vh;
-	position: absolute;
+	position: fixed;
 	bottom: 0px;
 	left: 25%;
 	text-align: center;
-	font-size: 1.1em;
+	font-size: 1vw;
 	font-weight: bold;
 	color: #ffffff;
 	border-radius: 25px;

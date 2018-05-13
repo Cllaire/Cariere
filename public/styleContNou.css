@@ -12,7 +12,7 @@ header {
 	color: #558b2f;
 	text-shadow: 0 0 5px #7CB342;
 	padding-top: 10vh;
-	font-size: 9em;
+	font-size: 8vw;
 	text-align: center;
 	font-weight: bold;
 }
@@ -23,7 +23,7 @@ header {
 	border: 3px solid #36802d;
 	border-radius: 25px;
 	text-align: center;
-	font-size: 1.2em;
+	font-size: 1vw;
 	color: #36802d;
 	position: absolute;
   	top: 50%;
@@ -40,16 +40,18 @@ div > input {
 }
 
 footer {
+	clear: both;
+	padding: 0;
 	background-color: #558b2f;
 	opacity: 0.8;
 	z-index: 1;
 	width: 50%;
 	height: 20vh;
-	position: absolute;
+	position: fixed;
 	bottom: 0px;
 	left: 25%;
 	text-align: center;
-	font-size: 1.1em;
+	font-size: 1vw;
 	font-weight: bold;
 	color: #ffffff;
 	border-radius: 25px;

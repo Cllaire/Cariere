@@ -1,37 +1,25 @@
-[debug] [2018-05-13T18:59:51.450Z] ----------------------------------------------------------------------
-[debug] [2018-05-13T18:59:51.452Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
-[debug] [2018-05-13T18:59:51.453Z] CLI Version:   3.17.7
-[debug] [2018-05-13T18:59:51.453Z] Platform:      linux
-[debug] [2018-05-13T18:59:51.453Z] Node Version:  v6.9.2
-[debug] [2018-05-13T18:59:51.453Z] Time:          Sun May 13 2018 21:59:51 GMT+0300 (EEST)
-[debug] [2018-05-13T18:59:51.453Z] ----------------------------------------------------------------------
+[debug] [2018-05-13T20:22:21.949Z] ----------------------------------------------------------------------
+[debug] [2018-05-13T20:22:21.951Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2018-05-13T20:22:21.952Z] CLI Version:   3.17.7
+[debug] [2018-05-13T20:22:21.952Z] Platform:      linux
+[debug] [2018-05-13T20:22:21.952Z] Node Version:  v6.9.2
+[debug] [2018-05-13T20:22:21.952Z] Time:          Sun May 13 2018 23:22:21 GMT+0300 (EEST)
+[debug] [2018-05-13T20:22:21.952Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-05-13T18:59:51.461Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-05-13T18:59:51.461Z] > authorizing via signed-in user
-[debug] [2018-05-13T18:59:51.463Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/cariere-6d468  
-  
- Sun May 13 2018 21:59:51 GMT+0300 (EEST)
-[debug] [2018-05-13T18:59:52.573Z] <<< HTTP RESPONSE 200
-[debug] [2018-05-13T18:59:52.575Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/cariere-6d468/tokens  
-  
- Sun May 13 2018 21:59:52 GMT+0300 (EEST)
-[debug] [2018-05-13T18:59:53.382Z] <<< HTTP RESPONSE 200
-[debug] [2018-05-13T18:59:53.383Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/cariere-6d468  
-  
- Sun May 13 2018 21:59:53 GMT+0300 (EEST)
-[debug] [2018-05-13T18:59:54.405Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-13T20:22:21.960Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-05-13T20:22:21.960Z] > authorizing via signed-in user
 [info] 
-[info] === Serving from '/home/ana/Documents/UniBuc/Anul II/Semestrul II/Cariere'...
-[info] 
-[debug] [2018-05-13T18:59:54.409Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/757550022548/clients/_:getWebAppConfig  
-  
- Sun May 13 2018 21:59:54 GMT+0300 (EEST)
-[debug] [2018-05-13T18:59:55.125Z] <<< HTTP RESPONSE 200
-[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
-[debug] [2018-05-13T18:59:55.145Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/757550022548/clients/_:getWebAppConfig  
-  
- Sun May 13 2018 21:59:55 GMT+0300 (EEST)
-[debug] [2018-05-13T18:59:55.632Z] <<< HTTP RESPONSE 200
-[info] i  hosting: Serving hosting files from: public
-[info] ✔  hosting: Local server: http://localhost:5004
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/ana/Documents/UniBuc/Anul II/Semestrul II/Cariere
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
 
