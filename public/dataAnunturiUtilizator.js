@@ -8,7 +8,12 @@ function initApp() {
 
   document.getElementById('ButonSignOut').addEventListener('click', ButonSignOut, false);
   document.getElementsByName('Submit')[0].addEventListener('click', ButonSubmit, false);
+  document.getElementById('ButonContact').addEventListener('click', ButonContact, false);
   colecteazaAnunturi();
+}
+
+function ButonContact() {
+	window.location.href = "ContactUtilizator.html";
 }
 
 function ButonSubmit() {

@@ -1,7 +1,12 @@
 function initApp() {
 
 	document.getElementById('ButonLogin').addEventListener('click', ButonLogin, false);
+	document.getElementById('ButonContact').addEventListener('click', ButonContact, false);
 	colecteazaAnunturi();
+}
+
+function ButonContact() {
+	window.location.href = "ContactVizitator.html";
 }
 
 // Trimite catre prima pagina. 

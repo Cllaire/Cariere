@@ -15,6 +15,11 @@ function initApp() {
   document.getElementById('ButonLogin').addEventListener('click', ButonLogin, false);
   document.getElementById('ButonContNou').addEventListener('click', ButonContNou, false);
   document.getElementById('ButonAnunturiVizitator').addEventListener('click', ButonAnunturiVizitator, false);
+  document.getElementById('ButonContact').addEventListener('click', ButonContact, false);
+}
+
+function ButonContact() {
+  window.location.href = "ContactVizitator.html";
 }
 
 function ButonAnunturiVizitator() {
