@@ -3,8 +3,13 @@ function initApp() {
 	document.getElementById('ButonLogin').addEventListener('click', ButonLogin, false);
 	document.getElementById('ButonContact').addEventListener('click', ButonContact, false);
 	document.getElementById('ButonAnunturiVizitator').addEventListener('click', ButonAnunturiVizitator, false);
+	document.getElementById('ButonProgramWorkshopuri').addEventListener('click', ButonProgramWorkshop, false);
 	colecteazaPrezentari();
 	//makeDummyPrezentari();
+}
+
+function ButonProgramWorkshop() {
+	window.location.href = "ProgramWorkshopVizitator.html";
 }
 
 function ButonAnunturiVizitator() {

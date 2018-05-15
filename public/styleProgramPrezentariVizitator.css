@@ -34,17 +34,21 @@ header {
 #Lista {
 	position: absolute;
 	top: 35%;
-	width: 70vw;
+	width: 99vw;
 	height: 40vh;
-	left: 15vw;
+	left: 0;
 	color: #36802d;
 	margin-bottom: 100px;
+}
+
+#Ziua1 {
+	margin-left: 20vw; 
 }
 
 #Lista div {
 	border: 2px solid #7CB342;
 	display: inline-block;
-	width: 23vw;
+	width: 20vw;
 	height: 40vh;
 	border-radius: 10px;	
 }
