@@ -17,11 +17,11 @@ function initApp() {
   document.getElementById('ButonAnunturiVizitator').addEventListener('click', ButonAnunturiVizitator, false);
   document.getElementById('ButonContact').addEventListener('click', ButonContact, false);
   document.getElementById('ButonProgramWorkshopuri').addEventListener('click', ButonProgramWorkshopuri, false);
-  document.getElementById('ButonProgramPrezentari').addEventListener('click', ButonPrezentari, false);
+  document.getElementById('ButonProgramPrezentari').addEventListener('click', ButonProgramPrezentari, false);
 
 }
 
-function ButonProgramWorkshopuri() {
+function ButonProgramPrezentari() {
   window.location.href = "ProgramPrezentariVizitator.html";
 }
 
