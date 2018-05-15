@@ -2,8 +2,13 @@ function initApp() {
 
 	document.getElementById('ButonContact').addEventListener('click', ButonContact, false);
 	document.getElementById('ButonAnunturiUtilizator').addEventListener('click', ButonAnunturiUtilizator, false);
+	document.getElementById('ButonProgramPrezentari').addEventListener('click', ButonProgramPrezentari, false);
 	document.getElementById('ButonSignOut').addEventListener('click', ButonSignOut, false);
 	colecteazaWorkshopuri();
+}
+
+function ButonProgramPrezentari() {
+	window.location.href = "ProgramPrezentariUtilizator.html";
 }
 
 function ButonSignOut() {

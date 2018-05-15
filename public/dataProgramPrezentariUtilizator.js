@@ -5,7 +5,6 @@ function initApp() {
 	document.getElementById('ButonAnunturi').addEventListener('click', ButonAnunturi, false);
 	document.getElementById('ButonProgramWorkshopuri').addEventListener('click', ButonProgramWorkshop, false);
 	colecteazaPrezentari();
-	//makeDummyPrezentari();
 }
 
 function ButonProgramWorkshop() {
@@ -81,54 +80,6 @@ function colecteazaPrezentari() {
 	});
 
 
-}
-
-function makeDummyPrezentari() {
-	var prezentari1Count = 0;
-	var prezentari2Count = 0;
-	var prezentari3Count = 0;
-
-	firebase.database().ref('prezentari1Count').once("value").then(function(snapshot) {
-		prezentari1Count = snapshot.child("count").val() + 1 ;
-		// Formam un nou mesaj in baza de date.
-		firebase.database().ref('prezentariZiua1/' + prezentari1Count).set( {
-			author: "SIE",
-			time: "08:30"
-		});
-		
-		// Updatam numarul de anunturi. 
-		firebase.database().ref('prezentari1Count').update({
-			count: prezentari1Count
-		});
-	});
-
-	firebase.database().ref('prezentari2Count').once("value").then(function(snapshot) {
-		prezentari2Count = snapshot.child("count").val() + 1 ;
-		// Formam un nou mesaj in baza de date.
-		firebase.database().ref('prezentariZiua2/' + prezentari2Count).set( {
-			author: "Sparktech",
-			time: "08:30"
-		});
-		
-		// Updatam numarul de anunturi. 
-		firebase.database().ref('prezentari2Count').update({
-			count: prezentari2Count
-		});
-	});
-
-	firebase.database().ref('prezentari3Count').once("value").then(function(snapshot) {
-		prezentari3Count = snapshot.child("count").val() + 1 ;
-		// Formam un nou mesaj in baza de date.
-		firebase.database().ref('prezentariZiua3/' + prezentari3Count).set( {
-			author: "Amazon",
-			time: "08:30"
-		});
-		
-		// Updatam numarul de anunturi. 
-		firebase.database().ref('prezentari3Count').update({
-			count: prezentari3Count
-		});
-	});
 }
 
 window.onload = function() {
