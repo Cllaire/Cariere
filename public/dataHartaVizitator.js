@@ -8,15 +8,15 @@ function initApp() {
 }
 
 function ButonProgramWorkshop() {
-	window.location.href = "ProgramWorkshopUtilizator.html";
+	window.location.href = "ProgramWorkshopVizitator.html";
 }
 
 function ButonAnunturi() {
-	window.location.href = "AnunturiUtilizator.html";
+	window.location.href = "AnunturiVizitator.html";
 }
 
 function ButonContact() {
-	window.location.href = "ContactUtilizator.html";
+	window.location.href = "ContactVizitator.html";
 }
 
 function ButonSignOut() { 

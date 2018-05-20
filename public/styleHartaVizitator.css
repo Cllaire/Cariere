@@ -52,7 +52,17 @@ th {
 	font-weight: bold;
 }
 
-
+#ButonLogin {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background: transparent;
+	border: 0px transparent;
+	color: #558b2f;
+	font-size: 2vw;
+	font-weight: bold;
+	font-family: eb-garamond;
+}
 
 
 footer {
@@ -65,7 +75,7 @@ footer {
 	width: 50%;
 	height: 20vh;
 	position: absolute;
-	top: 280vh;
+	top: 350vh;
 	left: 25%;
 	text-align: center;
 	font-size: 1vw;
@@ -81,14 +91,15 @@ footer {
 
     position: absolute;
     display: inline-block;
-    top: 65%;
-    left: 50%;
+    top: 70%;
+    left: 45%;
     margin-top:-35vh;
     
     margin-left:-50vh;
     
     
-    height:70vh;
+    height:95vh;
+    width:60vw;
     
    
 
@@ -108,11 +119,11 @@ footer {
 
 .containerHarti1 .buton1  {
     position: absolute;
-    top: 28%;
+    top: 25%;
     left: 20%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: rgb(12,78,105);
     color: white;
     font-size: 12px;
     padding: 10px 20px;
@@ -120,6 +131,7 @@ footer {
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
+    line-height: 5px;
     width:6vw;
     height: 3vh;
 }
@@ -127,11 +139,11 @@ footer {
 
 .containerHarti1 .buton2 {
     position: absolute;
-    top: 41%;
+    top: 37%;
     left: 20%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: rgb(12,78,105);
     color: white;
     font-size: 12px;
     padding: 10px 20px;
@@ -141,17 +153,18 @@ footer {
     text-align: center;
     width:6vw;
     height: 3vh;
+    line-height: 5px;
     
 
 }
 
 .containerHarti1 .buton3 {
     position: absolute;
-    top: 28%;
+    top: 25%;
     left: 40%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: rgb(12,78,105);
     color: white;
     font-size: 12px;
     padding: 10px 20px;
@@ -161,15 +174,16 @@ footer {
     text-align: center;
     width:6vw;
     height: 3vh;
+    line-height: 5px;
 }
 
 .containerHarti1 .buton4 {
     position: absolute;
-    top: 41%;
+    top: 37%;
     left: 40%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: rgb(12,78,105);
     color: white;
     font-size: 12px;
     padding: 10px 20px;
@@ -179,15 +193,16 @@ footer {
     text-align: center;
     width:6vw;
     height: 3vh;
+    line-height: 5px;
 }
 
 .containerHarti1 .buton5 {
     position: absolute;
-    top: 48%;
+    top: 43%;
     left: 70%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: rgb(12,78,105);
     color: white;
     font-size: 12px;
     padding: 10px 20px;
@@ -197,15 +212,16 @@ footer {
     text-align: center;
     width:6vw;
     height: 3vh;
+    line-height: 5px;
 }
 
 .containerHarti1 .buton6 {
     position: absolute;
-    top: 70%;
+    top: 60%;
     left: 70%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: rgb(12,78,105);
     color: white;
     font-size: 12px;
     padding: 10px 20px;
@@ -215,15 +231,16 @@ footer {
     text-align: center;
     width:6vw;
     height: 3vh;
+    line-height: 5px;
 }
 
 .containerHarti1 .buton7 {
     position: absolute;
-    top: 95%;
+    top: 80%;
     left: 70%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: rgb(12,78,105);
     color: white;
     font-size: 12px;
     padding: 10px 20px;
@@ -233,15 +250,16 @@ footer {
     text-align: center;
     width:6vw;
     height: 3vh;
+    line-height: 5px;
 }
 
 .containerHarti1 .buton8 {
     position: absolute;
-    top: 82%;
+    top: 70%;
     left: 82%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: rgb(12,78,105);
     color: white;
     font-size: 12px;
     padding: 10px 20px;
@@ -251,16 +269,17 @@ footer {
     text-align: center;
     width:6vw;
     height: 3vh;
+    line-height: 5px;
 }
 
 .containerHarti1 .buton9 {
     position: absolute;
-    top: 58%;
+    top: 50%;
     left: 82%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
-    color: white;
+    background-color:rgb(12,78,105);
+    color:white;
     font-size: 12px;
     padding: 10px 20px;
     border: none;
@@ -269,6 +288,7 @@ footer {
     text-align: center;
     width:6vw;
     height: 3vh;
+    line-height: 5px;
 }
 
 .containerHarti1 .buton1 .buton2 .buton3 .buton4 .buton5 .buton6 .buton7 .buton8 .buton9 :hover {
@@ -277,11 +297,11 @@ footer {
 
 .containerHarti2 .buton21 {
     position: absolute;
-    top: 136%;
+    top: 112%;
     left: 20%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: rgb(12,78,105);
     color: white;
     font-size: 12px;
     padding: 10px 20px;
@@ -291,15 +311,16 @@ footer {
     text-align: center;
     width:6vw;
     height: 3vh;
+    line-height: 5px;
 }
 
 .containerHarti2 .buton22 {
     position: absolute;
-    top: 148%;
+    top: 123%;
     left: 20%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: rgb(12,78,105);
     color: white;
     font-size: 12px;
     padding: 10px 20px;
@@ -309,15 +330,16 @@ footer {
     text-align: center;
     width:6vw;
     height: 3vh;
+    line-height: 5px;
 }
 
 .containerHarti2 .buton23 {
     position: absolute;
-    top: 136%;
+    top: 112%;
     left: 40%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: rgb(12,78,105);
     color: white;
     font-size: 12px;
     padding: 10px 20px;
@@ -327,16 +349,17 @@ footer {
     text-align: center;
     width:6vw;
     height: 3vh;
+    line-height: 5px;
 
 }
 
 .containerHarti2 .buton24 {
     position: absolute;
-    top: 148%;
+    top: 123%;
     left: 40%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: rgb(12,78,105);
     color: white;
     font-size: 12px;
     padding: 10px 20px;
@@ -346,16 +369,17 @@ footer {
     text-align: center;
     width:6vw;
     height: 3vh;
+    line-height: 5px;
 }
 
 
 .containerHarti2 .buton25 {
     position: absolute;
-    top: 155%;
+    top: 130%;
     left: 70%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: rgb(12,78,105);
     color: white;
     font-size: 12px;
     padding: 10px 20px;
@@ -365,17 +389,18 @@ footer {
     text-align: center;
     width:6vw;
     height: 3vh;
+    line-height: 5px;
 }
 
 
 
 .containerHarti2 .buton26 {
     position: absolute;
-    top: 178%;
+    top: 149%;
     left: 70%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: rgb(12,78,105);
     color: white;
     font-size: 12px;
     padding: 10px 20px;
@@ -385,15 +410,16 @@ footer {
     text-align: center;
     width:6vw;
     height: 3vh;
+    line-height: 5px;
 }
 
 .containerHarti2 .buton27 {
     position: absolute;
-    top: 200%;
+    top: 165%;
     left: 70%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: rgb(12,78,105);
     color: white;
     font-size: 12px;
     padding: 10px 20px;
@@ -403,15 +429,16 @@ footer {
     text-align: center;
     width:6vw;
     height: 3vh;
+    line-height: 5px;
 }
 
 .containerHarti2 .buton28 {
     position: absolute;
-    top: 189%;
+    top: 157%;
     left: 82%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: rgb(12,78,105);
     color: white;
     font-size: 12px;
     padding: 10px 20px;
@@ -421,15 +448,16 @@ footer {
     text-align: center;
     width:6vw;
     height: 3vh;
+    line-height: 5px;
 }
 
 .containerHarti2 .buton29 {
     position: absolute;
-    top: 167%;
+    top: 140%;
     left: 82%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: rgb(12,78,105);
     color: white;
     font-size: 12px;
     padding: 10px 20px;
@@ -439,15 +467,16 @@ footer {
     text-align: center;
     width:6vw;
     height: 3vh;
+    line-height: 5px;
 }
 
 .containerHarti3 .buton31 {
     position: absolute;
-    top: 243%;
+    top: 198%;
     left: 20%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: rgb(12,78,105);
     color: white;
     font-size: 12px;
     padding: 12px 20px;
@@ -457,15 +486,16 @@ footer {
     text-align: center;
     width:6vw;
     height: 3vh;
+    line-height: 5px;
 }
 
 .containerHarti3 .buton32 {
     position: absolute;
-    top: 255%;
+    top: 209%;
     left: 20%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: rgb(12,78,105);
     color: white;
     font-size: 12px;
     padding: 10px 20px;
@@ -475,15 +505,16 @@ footer {
     text-align: center;
     width:6vw;
     height: 3vh;
+    line-height: 5px;
 }
 
 .containerHarti3 .buton33 {
     position: absolute;
-    top: 243%;
+    top: 198%;
     left: 40%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: rgb(12,78,105);
     color: white;
     font-size: 12px;
     padding: 10px 20px;
@@ -493,15 +524,16 @@ footer {
     text-align: center;
     width:6vw;
     height: 3vh;
+    line-height: 5px;
 }
 
 .containerHarti3 .buton34 {
     position: absolute;
-    top: 255%;
+    top: 209%;
     left: 40%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: rgb(12,78,105);
     color: white;
     font-size: 12px;
     padding: 10px 20px;
@@ -511,15 +543,16 @@ footer {
     text-align: center;
     width:6vw;
     height: 3vh;
+    line-height: 5px;
 }
 
 .containerHarti3 .buton35 {
     position: absolute;
-    top: 262%;
+    top: 215%;
     left: 70%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: rgb(12,78,105);
     color: white;
     font-size: 12px;
     padding: 10px 20px;
@@ -529,15 +562,16 @@ footer {
     text-align: center;
     width:6vw;
     height: 3vh;
+    line-height: 5px;
 }
 
 .containerHarti3 .buton36 {
     position: absolute;
-    top: 283%;
+    top: 233%;
     left: 70%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: rgb(12,78,105);
     color: white;
     font-size: 12px;
     padding: 10px 20px;
@@ -547,15 +581,16 @@ footer {
     text-align: center;
     width:6vw;
     height: 3vh;
+    line-height: 5px;
 }
 
 .containerHarti3 .buton37 {
     position: absolute;
-    top: 305%;
+    top: 250%;
     left: 70%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: rgb(12,78,105);
     color: white;
     font-size: 12px;
     padding: 10px 20px;
@@ -565,16 +600,17 @@ footer {
     text-align: center;
     width:6vw;
     height: 3vh;
+    line-height: 5px;
 }
 
 
 .containerHarti3 .buton38 {
     position: absolute;
-    top: 294%;
+    top: 242%;
     left: 82%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: rgb(12,78,105);
     color: white;
     font-size: 12px;
     padding: 10px 20px;
@@ -584,15 +620,16 @@ footer {
     text-align: center;
     width:6vw;
     height: 3vh;
+    line-height: 5px;
 }
 
 .containerHarti3 .buton39 {
     position: absolute;
-    top: 272%;
+    top: 224%;
     left: 82%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: rgb(12,78,105);
     color: white;
     font-size: 12px;
     padding: 10px 20px;
@@ -602,4 +639,5 @@ footer {
     text-align: center;
     width:6vw;
     height: 3vh;
+    line-height: 5px;
 }

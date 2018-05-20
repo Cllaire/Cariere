@@ -2,21 +2,35 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="styleHartaVizitator.css">
-    <script src="hartaV.js"></script>
+    <link rel="stylesheet" type="text/css" href="styleHartaUtilizatorOptiuni.css">
+    <script src="dataHartaUtilizatorOptiuni.js"></script>
     <meta charset="UTF-8">
     <meta name="keywords" content="targ, cariere, fmi, unibuc, proiect">
     <meta name="description" content="Site targ cariere">
     <meta name="author" content="Andreea-Alexandra Balan">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Harta Standuri Vizitator </title>
+    <title> Harta Standuri Utilizator Simpla </title>
 
 
 
 </head>
 
 <body>
+
+        <input id = "ButonSignOut" type = "button" value="Sign Out">
     <header>Harta Standuri</header>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+		<script>
+		  var config = {
+		    apiKey: "AIzaSyAS5UYX4RkfpH5rHpQHvzZ1q_2ZQOVZ-AE",
+		    authDomain: "cariere-6d468.firebaseapp.com",
+		    databaseURL: "https://cariere-6d468.firebaseio.com",
+		    projectId: "cariere-6d468",
+		    storageBucket: "cariere-6d468.appspot.com",
+		    messagingSenderId: "757550022548"
+		  };
+		  firebase.initializeApp(config);
+		</script>
     <div id="Meniu">
         <table>
             <tr>
@@ -46,15 +60,7 @@
         <div class="containerHarti1">
                 <h1>Ziua 1</h1>
             <img src="harta1.jpg" style="width:100%">
-            <button class="buton1">STAND1</button>
-            <button class="buton2">STAND2</button>
-            <button class="buton3">STAND3</button>
-            <button class="buton4">STAND4</button>
-            <button class="buton5">STAND5</button>
-            <button class="buton6">STAND6</button>
-            <button class="buton7">STAND7</button>
-            <button class="buton8">STAND8</button>
-            <button class="buton9">STAND9</button>
+           
 
         </div>
 
@@ -89,8 +95,19 @@
     </div>
 
 
+  
+    <div class="OptiuneZi">
+        <h2>Selectati ziua in care doriti sa participati:  </h2>
+        <input type="number" id="nrZi" min="1" max="3">
 
+    </div>
 
+    <div class="OptiuneStand">
+        <h2>Selectati numarul standului pe care il doriti</h2>
+        <input type="number" id="nrStand" min="1" max="9">
+    </div>
+ 
+    <button id="butonFinal">Trimite</button>
 
     <footer>
         <br>
@@ -98,6 +115,7 @@
         <p> Universitatea din Bucuresti </p>
         <p> Facultatea de Matematica si Informatica </p>
     </footer>
+
 
 </body>
 
