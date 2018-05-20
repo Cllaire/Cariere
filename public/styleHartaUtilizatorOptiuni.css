@@ -119,7 +119,7 @@ footer {
 
 .containerHarti1 .buton11  {
     position: absolute;
-    top: 28%;
+    top: 25vh;
     left: 20%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -139,7 +139,7 @@ footer {
 
 .containerHarti1 .buton12{
     position: absolute;
-    top: 40%;
+    top: 37vh;
     left: 20%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -158,7 +158,7 @@ footer {
 
 .containerHarti1 .buton13 {
     position: absolute;
-    top: 28%;
+    top: 25vh;
     left: 40%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -177,7 +177,7 @@ footer {
 
 .containerHarti1 .buton14 {
     position: absolute;
-    top: 40%;
+    top: 37vh;
     left: 40%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
