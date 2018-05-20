@@ -5,43 +5,33 @@ function initApp() {
 	document.getElementById('ButonProgramPrezentari').addEventListener('click', ButonProgramPrezentari, false);
 	document.getElementById('ButonProgramWorkshopuri').addEventListener('click', ButonProgramWorkshopuri, false);
 	document.getElementById('butonFinal').addEventListener('click',updateButoane,false);
-	//genereazaStanduri1();
 	colecteazaButoane();
-	
-	
-    
-
 }
+
 function updateButoane(zi, nr_stand){
-	var zi=document.getElementById("nrZi").value;
-	var nr_stand=document.getElementById("nrStand").value;
-	alert(zi + nr_stand);
-
-	firebase.database().ref('Standuri/' + zi+nr_stand).update({
-
-     status:"ocupat"
-
+	
+	var zi = document.getElementById("nrZi").value;
+	var nr_stand = document.getElementById("nrStand").value;
+	firebase.database().ref('Standuri/' + zi + nr_stand).update({
+     	status:"ocupat"
 	});
-
 }
 
-function genereazaStanduri1(){
-for(var i=1;i<=3;i++)
-for(var j=1;j<=9;j++)
-{var x=i*10+j;
-firebase.database().ref('Standuri/' + x).set({
-clasa:"buton" + x,
-status: "liber"
-});
+function genereazaStanduri1() {
+	
+	for(var i = 1; i <= 3; i++)
+		for(var j = 1; j <= 9; j++) {
+			var x = i * 10 + j;
+			firebase.database().ref('Standuri/' + x).set({
+				clasa:"buton" + x,
+				status: "liber"
+			});
+		}
 }
-}
 
+function colecteazaButoane() {
 
-
-
-function colecteazaButoane(){
-
-   var container1=document.getElementsByClassName("containerHarti1")[0];
+   var container1 = document.getElementsByClassName("containerHarti1")[0];
    for(var i = 1; i <= 9; i++) {
 	    let numar = i;
 		firebase.database().ref('Standuri/' + '1' + numar).once("value").then(function(snapshot){
@@ -77,13 +67,6 @@ function ButonSignOut() {
     window.location.href = "Homepage.html";
 }
 
-
-
-
-
-
-
 window.onload = function() {
 	initApp();
-
 }
