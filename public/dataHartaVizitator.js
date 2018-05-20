@@ -4,6 +4,7 @@ function initApp() {
 	document.getElementById('ButonContact').addEventListener('click', ButonContact, false);
 	document.getElementById('ButonAnunturi').addEventListener('click', ButonAnunturi, false);
 	document.getElementById('ButonProgramWorkshopuri').addEventListener('click', ButonProgramWorkshop, false);
+	document.getElementById('ButonProgramPrezentari').addEventListener('click', ButonProgramPrezentare, false);
 	colecteazaButoane();
 	colecteazaButoane2();
 	colecteazaButoane3();
@@ -74,6 +75,10 @@ function colecteazaButoane() {
 
 function ButonProgramWorkshop() {
 	window.location.href = "ProgramWorkshopVizitator.html";
+}
+
+function ButonProgramPrezentare() {
+	window.location.href = "ProgramPrezentariVizitator.html";
 }
 
 function ButonAnunturi() {

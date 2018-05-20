@@ -2,6 +2,7 @@ function initApp() {
  
 	document.getElementById('ButonAnunturi').addEventListener('click', ButonAnunturi, false);
 	document.getElementById('ButonSignOut').addEventListener('click', ButonSignOut, false);
+	document.getElementById('ButonContact').addEventListener('click', ButonContact, false);
 	document.getElementById('ButonProgramPrezentari').addEventListener('click', ButonProgramPrezentari, false);
 	document.getElementById('ButonProgramWorkshopuri').addEventListener('click', ButonProgramWorkshopuri, false);
 	colecteazaButoane();
@@ -30,10 +31,10 @@ function colecteazaButoane() {
 			 container1.appendChild(buton); 
 		});
 	}
- }
+}
  
  
- function colecteazaButoane2() {
+function colecteazaButoane2() {
  
 	var container1 = document.getElementsByClassName("containerHarti2")[0];
 	for(var i = 1; i <= 9; i++) {
@@ -51,9 +52,10 @@ function colecteazaButoane() {
 			 container1.appendChild(buton); 
 		});
 	}
- }
+}
  
- function colecteazaButoane3() {
+
+function colecteazaButoane3() {
  
 	var container1 = document.getElementsByClassName("containerHarti3")[0];
 	for(var i = 1; i <= 9; i++) {
@@ -71,15 +73,30 @@ function colecteazaButoane() {
 			 container1.appendChild(buton); 
 		});
 	}
- }
-
-
-function ButonProgramPrezentari() {
-	window.location.href = "ProgramPrezentariUtilizator.html";
 }
+
+
+
+
+
+
+
+
+
+
+
+
+function ButonContact() {
+	window.location.href = "ContactUtilizator.html";
+}
+
 
 function ButonProgramWorkshopuri() {
 	window.location.href = "ProgramWorkshopUtilizator.html"; 
+}
+
+function ButonProgramPrezentari() {
+	window.location.href = "ProgramPrezentariUtilizator.html";
 }
 
 function ButonAnunturi() {
