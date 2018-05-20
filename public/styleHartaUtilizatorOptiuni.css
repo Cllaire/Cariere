@@ -92,7 +92,7 @@ footer {
 	width: 50%;
 	height: 20vh;
 	position: absolute;
-	top: 390vh;
+	top: 400vh;
 	left: 25%;
 	text-align: center;
 	font-size: 1vw;
@@ -119,7 +119,7 @@ footer {
 
 .containerHarti1 .buton11  {
     position: absolute;
-    top: 25%;
+    top: 28%;
     left: 20%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -139,7 +139,7 @@ footer {
 
 .containerHarti1 .buton12{
     position: absolute;
-    top: 37%;
+    top: 40%;
     left: 20%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -158,7 +158,7 @@ footer {
 
 .containerHarti1 .buton13 {
     position: absolute;
-    top: 25%;
+    top: 28%;
     left: 40%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -177,7 +177,7 @@ footer {
 
 .containerHarti1 .buton14 {
     position: absolute;
-    top: 37%;
+    top: 40%;
     left: 40%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -652,7 +652,7 @@ footer {
 	width: 50%;
 	height: 20vh;
 	position: absolute;
-	top: 300vh;
+	top: 310vh;
 	left: 25%;
 	text-align: center;
 	font-size: 1vw;
@@ -672,7 +672,7 @@ footer {
 	width: 50%;
 	height: 20vh;
 	position: absolute;
-	top: 330vh;
+	top: 340vh;
 	left: 25%;
 	text-align: center;
 	font-size: 1vw;

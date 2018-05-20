@@ -5,6 +5,7 @@ function initApp() {
 	document.getElementById('ButonProgramPrezentari').addEventListener('click', ButonProgramPrezentari, false);
 	document.getElementById('ButonProgramWorkshopuri').addEventListener('click', ButonProgramWorkshopuri, false);
 	document.getElementById('butonFinal').addEventListener('click',updateButoane,false);
+	document.getElementById('butonFinal').addEventListener('click',ButonFinal,false);
 	colecteazaButoane();
 	colecteazaButoane2();
 	colecteazaButoane3();
@@ -109,6 +110,10 @@ function ButonAnunturi() {
 function ButonSignOut() { 
     firebase.auth().signOut();
     window.location.href = "Homepage.html";
+}
+
+function ButonFinal() {
+	window.location.href = "AnunturiUtilizator.html"; 
 }
 
 window.onload = function() {
