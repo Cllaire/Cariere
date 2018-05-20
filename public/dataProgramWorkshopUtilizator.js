@@ -3,8 +3,13 @@ function initApp() {
 	document.getElementById('ButonContact').addEventListener('click', ButonContact, false);
 	document.getElementById('ButonAnunturiUtilizator').addEventListener('click', ButonAnunturiUtilizator, false);
 	document.getElementById('ButonProgramPrezentari').addEventListener('click', ButonProgramPrezentari, false);
+	document.getElementById('ButonHartaFacultate').addEventListener('click',ButonHarta,false);
 	document.getElementById('ButonSignOut').addEventListener('click', ButonSignOut, false);
 	colecteazaWorkshopuri();
+}
+
+function ButonHarta() {
+	window.location.href = "hartaUtilizatorSimpla.html";
 }
 
 function ButonProgramPrezentari() {

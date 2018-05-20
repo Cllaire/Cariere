@@ -2,8 +2,13 @@ function initApp() {
  
 	document.getElementById('ButonAnunturi').addEventListener('click', ButonAnunturi, false);
 	document.getElementById('ButonLogin').addEventListener('click', ButonLogin, false);
+	document.getElementById('ButonHartaFacultate').addEventListener('click', ButonHarta, false);
 	document.getElementById('ButonProgramWorkshopuri').addEventListener('click', ButonProgramWorkshopuri, false);
 	document.getElementById('ButonProgramPrezentari').addEventListener('click', ButonProgramPrezentari, false);
+}
+
+function ButonHarta() {
+	window.location.href = "HartaVizitator.html";
 }
 
 function ButonProgramPrezentari() {

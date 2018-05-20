@@ -2,10 +2,14 @@ function initApp() {
 
 	document.getElementById('ButonLogin').addEventListener('click', ButonLogin, false);
 	document.getElementById('ButonContact').addEventListener('click', ButonContact, false);
+	document.getElementById('ButonHartaFacultate').addEventListener('click', ButonHarta, false);
 	document.getElementById('ButonAnunturiVizitator').addEventListener('click', ButonAnunturiVizitator, false);
 	document.getElementById('ButonProgramPrezentari').addEventListener('click', ButonProgramPrezentari, false);
 	colecteazaWorkshopuri();
 	//addDummyWorkshops();
+}
+function ButonHarta() {
+	window.location.href = "HartaVizitator.html";
 }
 
 function ButonProgramPrezentari() {

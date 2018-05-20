@@ -16,9 +16,14 @@ function initApp() {
   document.getElementById('ButonContNou').addEventListener('click', ButonContNou, false);
   document.getElementById('ButonAnunturiVizitator').addEventListener('click', ButonAnunturiVizitator, false);
   document.getElementById('ButonContact').addEventListener('click', ButonContact, false);
+  document.getElementById('ButonHartaFacultate').addEventListener('click',ButonHarta,false);
   document.getElementById('ButonProgramWorkshopuri').addEventListener('click', ButonProgramWorkshopuri, false);
   document.getElementById('ButonProgramPrezentari').addEventListener('click', ButonProgramPrezentari, false);
 
+}
+
+function ButonHarta() {
+	window.location.href = "HartaVizitator.html";
 }
 
 function ButonProgramPrezentari() {
