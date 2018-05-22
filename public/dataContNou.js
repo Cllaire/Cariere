@@ -1,5 +1,8 @@
 function initApp() {
-
+  Test1();
+  Test2();
+  Test3();
+  Test4();
   // Se executa la fiecare log in sau sign out.
   firebase.auth().onAuthStateChanged(function(user) {
     
@@ -24,7 +27,6 @@ function initApp() {
           console.log(error);
         });
       }
-
       alert("e logat");
     }
     else 
@@ -76,6 +78,68 @@ function ButonContNou() {
 }
 
 window.onload = function() {
-  
+  console.log("a dat de teste");
   initApp();
+}
+
+var Verificare = 0;
+
+function testareParola(Parola) {
+  Verificare = 1;
+  if (Parola.length < 4)
+    Verificare = 0;
+  var upperCaseLetters = /[A-Z]/g;
+  var lowerCaseLetters = /[a-z]/g;
+  var numbers = /[0-9]/g;
+  for (let i = 0; i < Parola.length; i++) {
+    if(Parola[i].match(upperCaseLetters) ||
+       Parola[i].match(lowerCaseLetters) ||
+       Parola[i].match(numbers))
+       continue;
+    else {
+      Verificare = 0;
+      break;
+    }
+  }  
+
+}
+
+function Test1() {
+  var Parola = "Ahhfd9s";
+  var expectedValue = 1;
+  Verificare = 0;
+  testareParola(Parola);
+  console.assert(Verificare == expectedValue, "A picat testul 1!");
+}
+
+function Test2() {
+  var Parola = "27282829";
+  var expectedValue = 0;
+  Verificare = 0;
+  testareParola(Parola);
+  console.assert(Verificare == expectedValue, "A picat testul 2!");
+}
+
+function Test3() {
+  var Parola = "2!7 282829";
+  var expectedValue = 0;
+  Verificare = 0;
+  testareParola(Parola);
+  console.assert(Verificare == expectedValue, "A picat testul 3!");
+}
+
+function Test4() {
+  var Parola = "AJAJAJAJ";
+  var expectedValue = 1;
+  Verificare = 0;
+  testareParola(Parola);
+  console.assert(Verificare == expectedValue, "A picat testul 4!");
+}
+
+function Test5() {
+  var Parola = "d3A";
+  var expectedValue = 0;
+  Verificare = 0;
+  testareParola(Parola);
+  console.assert(Verificare == expectedValue, "A picat testul 5!");
 }
