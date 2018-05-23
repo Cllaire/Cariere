@@ -20,7 +20,7 @@ function initApp() {
           user.providerData.forEach(function (profile) {
             console.log("  Name: " + profile.displayName);
             console.log("  Email: " + profile.email);
-            window.location.href = "AnunturiUtilizator.html";
+            window.location.href = "Pachete.html";
           });
         })
         .catch(function(error) {
