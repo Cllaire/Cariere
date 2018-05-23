@@ -1,6 +1,7 @@
 function initApp() {
  
 	document.getElementById('ButonAnunturi').addEventListener('click', ButonAnunturi, false);
+	document.getElementById('ButonContact').addEventListener('click', ButonContact, false);
 	document.getElementById('ButonSignOut').addEventListener('click', ButonSignOut, false);
 	document.getElementById('ButonProgramPrezentari').addEventListener('click', ButonProgramPrezentari, false);
 	document.getElementById('ButonProgramWorkshopuri').addEventListener('click', ButonProgramWorkshopuri, false);
@@ -101,6 +102,11 @@ function ButonProgramPrezentari() {
 
 function ButonProgramWorkshopuri() {
 	window.location.href = "ProgramWorkshopUtilizator.html"; 
+}
+
+
+function ButonContact() {
+	window.location.href = "ContactUtilizator.html";
 }
 
 function ButonAnunturi() {
